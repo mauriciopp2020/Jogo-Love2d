@@ -1,0 +1,27 @@
+{
+    "Lua.runtime.version": "LuaJIT",
+    "Lua.workspace.library": [
+        "${3rd}/love2d/library"
+    ],
+    "Lua.workspace.checkThirdParty": false,
+    "Lua.diagnostics.disable": [
+        "param-type-mismatch",
+        "undefined-field",
+        "different-requires",
+        "missing-parameter"
+    ],
+    "Lua.diagnostics.globals": [
+        "dashFadeOut",
+        "settings",
+        "padx",
+        "pady",
+        "mask",
+        "opt",
+        "describe",
+        "it",
+        "before_each",
+        "spy",
+        "playerFired",
+        "fadeIn"
+    ]
+}

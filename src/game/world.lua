@@ -1,0 +1,7 @@
+world = wf.newWorld()
+world:setQueryDebugDrawing(true)
+world:addCollisionClass("Player")
+world:addCollisionClass("Enemy", {ignores = {"Enemy"}}, {enter = {"Bullet"}})
+world:addCollisionClass("Bullet")
+world:addCollisionClass("Dead", {ignores = {"Player", "Enemy", "Bullet"}})
+world:addCollisionClass("Wall", {ignores = {"Enemy", "Bullet"}})
